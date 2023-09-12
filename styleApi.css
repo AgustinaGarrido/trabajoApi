@@ -1,0 +1,70 @@
+body{
+    font-family: 'Bevan', serif;
+    background-color: #370E52;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: white;
+    
+    text-shadow:3px 3px 2px black;
+}
+.subTitle{
+    color: white;
+    text-shadow:3px 3px 2px black;
+    padding: 10px;
+}
+#pokemonId {
+    width: 300px;
+    height: 30px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Bevan', serif;
+}
+#searchButton{
+    font-family: 'Bevan', serif;
+    text-shadow:3px 3px 2px black;
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    width: 80px;
+    height: 40px;
+}
+.pokemon-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokemonImage {
+    width: 100%;
+    
+}
+#pokemon-container{
+    background-color: aquamarine;
+    border-radius: 1rem;
+    margin-top: 15px;
+    max-height: 600px;
+    width: 300px;
+}
+.pokemonName{
+    background-color: white;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow:3px 3px 2px black;
+}
+.pokemonDescription{
+    background-color: white;
+    display: block;
+    width: 150px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow:3px 3px 2px black;
+}
